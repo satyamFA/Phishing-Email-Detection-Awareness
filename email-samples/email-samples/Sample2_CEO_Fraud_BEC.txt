@@ -1,0 +1,103 @@
+====================================================================
+PHISHING EMAIL SAMPLE #2: CEO Fraud (Business Email Compromise)
+====================================================================
+
+CLASSIFICATION: CRITICAL RISK - BUSINESS EMAIL COMPROMISE (BEC)
+ATTACK TYPE: Executive Impersonation / Financial Fraud
+ANALYZED: February 2026
+
+====================================================================
+
+From: ceo@companyname-corp.com
+To: finance@company.com
+Subject: Urgent - Wire Transfer Needed
+Date: February 08, 2026, 09:15:42 EST
+Reply-To: ceo@companyname-corp.com
+
+--------------------------------------------------------------------
+
+Sarah,
+
+I'm currently in a meeting with potential investors and need you to 
+process an urgent wire transfer for a time-sensitive acquisition 
+opportunity.
+
+Please wire $85,000 to the following account immediately:
+
+Account Name: Strategic Ventures LLC
+Account Number: 9847562301
+Routing Number: 021000021
+Bank: International Commerce Bank
+
+This is confidential - do not discuss with anyone until the deal is 
+finalized. I'll explain everything when I return to the office 
+tomorrow.
+
+Please confirm once the transfer is complete.
+
+Thanks,
+Michael Roberts
+CEO
+
+Sent from my iPhone
+
+--------------------------------------------------------------------
+
+====================================================================
+PHISHING INDICATORS IDENTIFIED:
+====================================================================
+
+1. SPOOFED DOMAIN
+   - Sender: companyname-corp.com (with hyphen)
+   - Legitimate: companyname.com (without hyphen)
+   - Typosquatting technique
+
+2. UNUSUAL REQUEST
+   - Wire transfers require multi-step approval
+   - No purchase order or documentation
+   - Bypasses normal financial controls
+
+3. SECRECY REQUEST
+   - "Do not discuss with anyone"
+   - Prevents verification
+   - Exploits trust in authority
+
+4. TIME PRESSURE
+   - "Urgent" and "immediately"
+   - "Time-sensitive acquisition"
+   - Pressure to bypass protocols
+
+5. AUTHORITY EXPLOITATION
+   - Impersonates CEO
+   - Direct request to finance team
+   - Assumes compliance without question
+
+6. MOBILE SIGNATURE
+   - "Sent from my iPhone" adds authenticity
+   - Still requires verification through other channels
+
+====================================================================
+ANALYSIS NOTES:
+====================================================================
+
+This is a Business Email Compromise (BEC) attack, also known as 
+"CEO Fraud" or "Whaling." The attacker impersonates a senior 
+executive to authorize fraudulent wire transfers.
+
+According to FBI statistics, BEC attacks resulted in over $2.7 
+billion in losses in 2022 alone.
+
+RECOMMENDED ACTION:
+- DO NOT process wire transfer
+- Verify request through phone call to CEO (use known number)
+- Follow standard financial authorization procedures
+- Report to IT security and management immediately
+- Document the attempt
+
+VERIFICATION PROTOCOL:
+1. Call the executive using a known phone number
+2. Verify through multiple channels (not email)
+3. Follow established wire transfer procedures
+4. Get written authorization through official channels
+
+====================================================================

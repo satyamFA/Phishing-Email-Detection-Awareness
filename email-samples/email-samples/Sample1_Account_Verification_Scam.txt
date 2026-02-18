@@ -1,0 +1,82 @@
+====================================================================
+PHISHING EMAIL SAMPLE #1: Account Verification Scam
+====================================================================
+
+CLASSIFICATION: HIGH RISK - CREDENTIAL HARVESTING
+ATTACK TYPE: Social Engineering / Urgency Tactics
+ANALYZED: February 2026
+
+====================================================================
+
+From: security-team@secure-verification-center.com
+To: user@company.com
+Subject: ⚠️ Urgent: Your Account Will Be Locked
+Date: February 08, 2026, 14:32:15 EST
+Reply-To: no-reply@secure-verification-center.com
+
+--------------------------------------------------------------------
+
+Dear Valued Customer,
+
+We have detected suspicious activity on your account from an 
+unrecognized device located in Nigeria. For your security, we need 
+you to verify your account information immediately.
+
+If you do not verify within 24 hours, your account will be 
+permanently suspended to prevent unauthorized access.
+
+👉 Click here to verify now: 
+http://secure-account-verify.com/login
+
+Thank you for your immediate attention to this matter.
+
+Security Team
+Account Protection Department
+
+--------------------------------------------------------------------
+
+====================================================================
+PHISHING INDICATORS IDENTIFIED:
+====================================================================
+
+1. SUSPICIOUS SENDER DOMAIN
+   - Domain: secure-verification-center.com
+   - Not affiliated with any legitimate organization
+   - Recently registered (WHOIS check recommended)
+
+2. URGENCY TACTICS
+   - "24 hours" artificial deadline
+   - Threat of "permanent suspension"
+   - Designed to bypass rational thinking
+
+3. MALICIOUS LINK
+   - URL: secure-account-verify.com
+   - Typosquatting/fake domain
+   - Leads to credential harvesting page
+
+4. GENERIC GREETING
+   - "Dear Valued Customer" (not personalized)
+   - No specific account details
+   - Mass-distribution indicator
+
+5. FEAR TACTICS
+   - References "Nigeria" to create alarm
+   - "Suspicious activity" claim
+   - Pressure to act without verification
+
+====================================================================
+ANALYSIS NOTES:
+====================================================================
+
+This is a classic credential phishing attack. The attacker creates
+a fake login page that captures usernames and passwords when victims
+attempt to "verify" their accounts.
+
+RECOMMENDED ACTION:
+- DO NOT click any links
+- DO NOT enter credentials
+- Report to IT security immediately
+- Delete the email
+- Verify account status through official channels only
+
+====================================================================

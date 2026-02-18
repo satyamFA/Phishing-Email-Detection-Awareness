@@ -1,0 +1,161 @@
+====================================================================
+PHISHING EMAIL SAMPLE #4: Package Delivery Scam
+====================================================================
+
+CLASSIFICATION: HIGH RISK - CREDENTIAL PHISHING
+ATTACK TYPE: Fake Delivery Notification / Social Engineering
+ANALYZED: February 2026
+
+====================================================================
+
+From: noreply@shipment-tracking.delivery
+To: customer@company.com
+Subject: 📦 Your Package Delivery Failed - Action Required
+Date: February 08, 2026, 14:15:33 EST
+Reply-To: support@shipment-tracking.delivery
+
+--------------------------------------------------------------------
+
+Dear Customer,
+
+We attempted to deliver your package today but were unsuccessful 
+due to an incomplete address.
+
+Tracking Number: FDX8472639201
+Delivery Attempt: February 08, 2026 at 2:15 PM
+Status: Pending Customer Action
+Current Location: Local Distribution Center
+
+To reschedule delivery and update your address information, 
+please click below:
+
+🔗 Update Delivery Information: 
+https://fedx-delivery-update.com/track?id=FDX8472639201
+
+IMPORTANT: If no action is taken within 72 hours, your package 
+will be returned to sender and you will be charged a $25 
+restocking fee.
+
+Thank you for choosing our delivery service.
+
+Customer Service Team
+_______________________________________________________________
+This is an automated message. Please do not reply to this email.
+For customer support, visit our help center.
+
+--------------------------------------------------------------------
+
+====================================================================
+PHISHING INDICATORS IDENTIFIED:
+====================================================================
+
+1. FAKE SENDER DOMAIN
+   - Domain: shipment-tracking.delivery
+   - Uses suspicious .delivery TLD
+   - Not affiliated with FedEx, UPS, or legitimate carriers
+   - Legitimate carriers use official domains (fedex.com, ups.com)
+
+2. MALICIOUS URL (TYPOSQUATTING)
+   - Link: fedx-delivery-update.com
+   - Mimics "FedEx" but uses "fedx" (missing 'e')
+   - Typosquatting technique
+   - Domain likely registered recently
+
+3. UNSOLICITED PACKAGE
+   - Recipient not expecting delivery
+   - No order confirmation reference
+   - Creates curiosity to click
+   - Common tactic for broad phishing campaigns
+
+4. FINANCIAL THREAT
+   - $25 "restocking fee" warning
+   - 72-hour deadline
+   - Creates pressure to act quickly
+   - Bypasses verification instinct
+
+5. GENERIC GREETING
+   - "Dear Customer" (no personalization)
+   - No recipient name or specific details
+   - Legitimate carriers include customer name
+
+6. FAKE TRACKING NUMBER
+   - Format mimics real tracking numbers
+   - Cannot be verified on official sites
+   - Designed to appear authentic
+
+====================================================================
+ATTACK EXPLANATION:
+====================================================================
+
+This phishing scam exploits the prevalence of online shopping and 
+package deliveries. The attack works because:
+
+1. Many people regularly expect package deliveries
+2. Curiosity prompts clicks even without ordering
+3. Urgency and fees create pressure to act
+4. Package tracking is routine and trusted
+
+WHAT HAPPENS WHEN YOU CLICK:
+
+Scenario 1: CREDENTIAL THEFT
+- Fake login page requesting email/password
+- Credentials harvested and sold
+- Used to compromise actual accounts
+
+Scenario 2: PAYMENT FRAUD
+- Fake "redelivery fee" payment form
+- Requests credit card information
+- Financial theft and identity fraud
+
+Scenario 3: MALWARE DOWNLOAD
+- Fake "tracking app" download
+- Installs malware on device
+- Data theft and system compromise
+
+====================================================================
+HOW TO VERIFY LEGITIMATE DELIVERY NOTIFICATIONS:
+====================================================================
+
+✓ Check if you're actually expecting a package
+✓ Verify tracking number on official carrier website
+✓ Look for personalized details (your name, address)
+✓ Check sender email domain carefully
+✓ Contact carrier directly using official phone number
+✓ Never click links - go directly to carrier's website
+
+LEGITIMATE DELIVERY EMAILS INCLUDE:
+- Your full name and delivery address
+- Specific order details or sender information
+- Official company domain (fedex.com, ups.com, usps.com)
+- Consistent branding and professional formatting
+
+====================================================================
+RECOMMENDED ACTION:
+====================================================================
+
+1. DO NOT click any links in the email
+2. DO NOT enter any personal information
+3. Verify tracking number on official carrier website
+4. If no package expected, delete the email
+5. Report to IT security if received on work email
+6. Check credit card statements for unauthorized charges
+
+HOW TO CHECK SAFELY:
+1. Open new browser window
+2. Type official carrier website directly (e.g., fedex.com)
+3. Enter tracking number manually
+4. Contact carrier customer service if concerns persist
+
+====================================================================
+TECHNICAL INDICATORS:
+====================================================================
+
+Sender IP: 194.67.93.21 (Romania - suspicious)
+SPF Record: None
+DKIM Signature: FAIL
+DMARC: Not configured
+Domain Registration: 8 days ago
+SSL Certificate: Self-signed (red flag)
+VirusTotal Reputation: 12/70 security vendors flag as phishing
+
+====================================================================
